@@ -1,8 +1,8 @@
 # Created by https://www.gitignore.io/api/laravel
 
 ### Laravel ###
-vendor/
-node_modules/
+vendor
+node_modules
 npm-debug.log
 
 # Laravel 4 specific
