@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100%;
+    background-color: #eee;
+}
+
+/*styles apply*/
+
+
+nav.navbar {
+    background-color: rgba(159, 31, 41, 0.65);
+    height: 100px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.enlaces{
+    font-size: 30px;
+    color: black !important;
+    margin: 25px 35px 5px 5px;
+}
+.dropDownFix{
+    margin-right: 34px;
+    width: 87%;
+    
+}
+/* The side navigation menu */
+.menuDerecho {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #333333; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.menuDerecho a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.menuDerecho a:hover, .offcanvas a:focus{
+    color: #FFFFFF;
+}
+
+/* Position and style the close button (top right corner) */
+.menuDerecho .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+.posicionBotonAbrir{
+    padding-top: 30px !important;
+    padding-left: 20px;
+    
+    
+}
+.ocultar{
+    display: none;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+.main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.padding{
+    padding: 20px 20px 20px 0;
+}
+
+.pagination,
+.pagination li a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pointer{
+    cursor: pointer;
+}
+.blackColor{
+    color:black;
+}
+#error > h2{
+    font-size: 22px;
+}
+
+#img-error{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+#img-error > img{
+    width:300px;
+    padding-bottom: 30px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .menuDerecho {padding-top: 15px;}
+    .menuDerecho a {font-size: 18px;}
+}

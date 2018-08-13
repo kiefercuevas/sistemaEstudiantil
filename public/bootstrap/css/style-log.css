@@ -1,0 +1,81 @@
+body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 305;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.form-box{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.form-top{
+	overflow: hidden;
+	padding: 0 25px 15px 25px;
+	background: #444;
+	background: rgba(159, 31, 41, 0.65);
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.form-bottom {
+	padding: 35px 35px 40px 35px;
+	background: #444;
+	background: rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-group > #form-email, #form-password{
+	height:50px;
+	border-radius: 1;	
+	font-size: 16px;
+	font-weight: 500;
+    color: #888;
+    line-height: 300px;
+}
+
+#form-submit{
+	color: #fff;
+	height:50px;
+	background: rgba(51, 51, 51, 0.65);
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+#form-submit:hover, #form-submit:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #333333;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.form-top-right {
+	padding-top: 15px;
+	font-size: 66px;
+	color: #fff;
+	line-height: 100px;
+	text-align: right;
+	opacity: 0.3;
+}
+
+.form-top-left {
+	padding-top: 15px;
+}
+.form-top-left > h3{
+	color: #fff;
+	opacity: 0.9;
+}
+.form-top-left > p{
+	color: #fff;
+	opacity: 0.9;
+}
+
+.form-box > h1 {
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+
